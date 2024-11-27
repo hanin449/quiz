@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(35, 4, 8);
+    color: white;
+    margin: 10px;
+    padding: 7px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: darksalmon;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: cadetblue;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: burlywood;
+}
+h4{
+    font-family: cursive;
+    color: grey;
+}
+table{
+    border: 2px solid;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 15px;
+  
+
+}
+h1{
+    animation: slide-in 2s ease-in-out 1s infinite alternate ;
+}
+@keyframes slide-in{
+    0%{
+        background-color: pink;
+        transform-style: preserve-3d;
+    }
+    50%{
+        background-color: purple;
+        transform-style: preserve-3d;
+    }
+    100%{
+        background-color: rgb(46, 7, 46);
+        transform-style: preserve-3d;
+    }
+}
+
+.list{
+    background-color: rgb(165, 42, 118);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+@media (max-width:600px){
+    body {
+        background-color: whitesmoke;
+        color: pink;
+    }
+}
+
+
